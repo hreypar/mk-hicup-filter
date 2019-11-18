@@ -19,9 +19,8 @@ results/%.filt.sam:	data/%.pair.sam
 	hicup_filter \
 		--threads $HF_THREADS_NUMBER \
 		--digest $DIGESTED_GENOME_PATH \
-		--outdir `dirname $target` \
 		--longest  $LONGEST_NT \
 		--shortest $SHORTEST_NT \
+		--outdir `dirname $target` \
 		$prereq
-
 
