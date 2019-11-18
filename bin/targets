@@ -1,0 +1,11 @@
+#!/bin/bash
+##
+## USAGE:
+## bin/targets
+
+find -L data/ \
+	-name "*.pair.sam" \
+| sed -r \
+	-e 's#^data/#results/#' \
+	-e 's#.pair.sam$#.filt.sam#'
+
