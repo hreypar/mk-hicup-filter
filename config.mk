@@ -4,7 +4,8 @@ Configuration variables to run hicup truncator
 HF_THREADS_NUMBER = 3
 
 # digested genome path
-DIGESTED_GENOME_PATH =
+# note that it follows HiCUP convention on naming files
+DIGESTED_GENOME_PATH = references/Digest_GRCh38_HindIII_None_19-15-13_17-11-2019.txt
 
 # maximum allowable insert size (bp)
 LONGEST_NT = 800
