@@ -1,7 +1,7 @@
 Configuration variables to run hicup truncator
 #
 # number of CPUs to use
-HF_THREADS_NUMBER = 3
+HF_THREADS_NUMBER = 4
 
 # digested genome path
 # note that it follows HiCUP convention on naming files
