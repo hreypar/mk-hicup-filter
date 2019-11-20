@@ -1,4 +1,4 @@
-Configuration variables to run hicup truncator
+#Configuration variables to run hicup truncator
 #
 # number of CPUs to use
 HF_THREADS_NUMBER = 4
